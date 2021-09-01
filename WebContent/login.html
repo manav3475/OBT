@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>LOGIN</title>
+	<style>
+	h1{
+		font-family:arial;
+	}
+	
+	td {
+		padding:10px 10px;
+	}
+	
+	body{
+		font-family:arial; 
+	}
+	
+	table{
+		border:5px outset yellow;
+		padding:25px;
+	}
+	</style>
+</head>
+<body>
+<form action="check_user" method="POST">
+<center>
+<h1>LOGIN</h1>
+	<table>
+		<tr>
+			<td>Username</td>
+			<td>:-</td>
+			<td><input type="email" name="username" placeholder="Enter Gmail" required></td>
+		</tr>
+		
+		
+		<tr>
+			<td>Password</td>
+			<td>:-</td>
+			<td><input type="password" name="password" placeholder="Enter Password" required></td>
+		</tr>
+		
+		
+		<tr>
+			<td></td>
+			<td></td>
+			<td><input type="submit" name="submit" value="LOGIN">
+			<input type="reset" name="reset" value="RESET"></td>
+		</tr>
+		
+		<tr>
+			<td></td>
+			<td></td>
+			<td><a href="registration">NEW USER</a></td>
+		</tr>
+	</table>
+</center>
+</form>
+
+</body>
+</html>
